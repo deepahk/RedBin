@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".SmartBinMainActivity"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:id="@+id/selectedBins" android:layout_marginTop="5dip" android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip">
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/dateRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectedBins"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:textAlignment="center"
+        android:paddingStart="20dp" />
+
+    <TextView
+        android:id="@+id/querySelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateRange"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        tools:ignore="Orientation"
+        android:layout_marginTop="60dip" android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

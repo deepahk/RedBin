@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/loc2">
+
+    <Button
+        android:id="@+id/fillLevelButton_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="410dip"
+        android:layout_marginLeft="1dip"
+        android:clickable="true"
+        android:text="@string/FILL_LEVEL" />
+    <Button
+        android:id="@+id/optimalRouteButton_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="410dip"
+        android:layout_marginLeft="90dip"
+        android:clickable="true"
+        android:text="@string/GEO_LOCATION" />
+    <Button
+        android:id="@+id/analyticsButton_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="410dip"
+        android:layout_marginLeft="205dip"
+        android:clickable="true"
+        android:text="@string/ANALYSIS" />
+</RelativeLayout><!-- From: file:/C:/Users/NavyaAnand/Desktop/andriod/Final/MyApplication%202/app/src/main/res/layout/footer_button.xml -->
